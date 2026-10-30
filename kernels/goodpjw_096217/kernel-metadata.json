@@ -1,0 +1,32 @@
+{
+  "id": "goodpjw2008/s6e10-meta-stack-on-public-oof-lb-0-96217",
+  "id_no": 137644080,
+  "title": "S6E10 | Meta Stack on Public OOF | LB 0.96217",
+  "code_file": "s6e10-meta-stack-on-public-oof-lb-0-96217.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "nina2025/ps-s6e10-7",
+    "sadamtorres/ps-s6e10-airline-satisfaction-artifacts",
+    "cdeotte/s6e10-124-public-oof-and-test-predictions",
+    "amanatar/s6e10-forge-own-pairs",
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "dariushafshar/s6e10-golem-oof-library",
+    "cdeotte/s6e10-tfm-oof-and-test-predictions"
+  ],
+  "kernel_sources": [
+    "ewtherka/s6e10-0-96188-lb-l2-family-wise-actually-helps",
+    "mercurydust/pas-submission"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:81b1e7c4b4f0f2a7e0a33943c95754b1b7af6b30d65221633a284b6b601cd84a",
+  "machine_shape": "None"
+}

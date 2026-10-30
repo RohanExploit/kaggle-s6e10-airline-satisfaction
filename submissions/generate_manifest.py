@@ -1,0 +1,36 @@
+import hashlib
+import json
+from pathlib import Path
+import pandas as pd
+
+SUB_DIR = Path(r"E:\projects\playground-series-s6e10\submissions")
+
+records = [
+    {"sub": 1,  "file": "sub1_orthogonal_push_096223.csv", "score": 0.96223, "ref": "57800120", "desc": "Sub 1: Orthogonal Covariance Push + Mirror Climb Anchor (T3)"},
+    {"sub": 2,  "file": "sub2_5d_ortho_climb.csv", "score": 0.96223, "ref": "57800740", "desc": "Sub 2: 5D Orthogonal Climb (1.08 R1 + 1.42 M + 1.12 Qp + Ortho Teacher/DeotteXGB)"},
+    {"sub": 3,  "file": "sub3_strong_cov_ortho_push.csv", "score": 0.96222, "ref": "57800762", "desc": "Sub 3: K=8.5 Covariance Push + 1.48 Mirror + 1.18 Qp + Ortho Teacher/LR-LGB"},
+    {"sub": 4,  "file": "sub4_t3_plus_ortho_cv_meta_lift.csv", "score": 0.96223, "ref": "57800948", "desc": "Sub 4: Exact T3 Summit + Orthogonal CV-Verified 31-Model Meta-Stack Lift (+25.4e-6 5/5 folds)"},
+    {"sub": 5,  "file": "sub5_t3_areeb_contrast_m2.csv", "score": 0.96223, "ref": "57801255", "desc": "Sub 5: T3 + Ortho Areeb (-0.048 cd_xgb -0.015 cd_rmlp) + M_det + M_2027b23 + CV Meta Lift"},
+    {"sub": 6,  "file": "sub6_extended_12comp_cov_push.csv", "score": 0.96223, "ref": "57801482", "desc": "Sub 6: Clean M_nudge (peeled M_det drag) + Ortho Nina/Rabari Climb + Ortho Areeb + CV Meta"},
+    {"sub": 7,  "file": "sub7_t3_ortho_stack245_super.csv", "score": 0.96221, "ref": "57802170", "desc": "Sub 7: T3 + Ortho(Stack245+33-Model SuperStack - 182lr) + Peeled M_nudge + Ortho TFM"},
+    {"sub": 8,  "file": "sub8_final_hybrid_top20_cv_shield.csv", "score": 0.96222, "ref": "57802156", "desc": "Sub 8: Consensus of 5 Top-16 Orthogonal Trajectories + 0.962225 OOF 33-Model Super-Stack CV Shield"},
+    {"sub": 9,  "file": "sub9_reverse_contrast_extrapolation.csv", "score": 0.96223, "ref": "57802267", "desc": "Sub 9: Sub 6 + 0.85 * Ortho(Sub 6 - Sub 7) Reverse-Contrast Extrapolation"},
+    {"sub": 10, "file": "sub10_consensus223_dual_reverse_climb.csv", "score": 0.96225, "ref": "57802278", "desc": "Sub 10: 5-Trajectory 0.96223 Consensus + Dual Reverse-Contrast Climb (#14 Leaderboard Peak)"},
+    {"sub": 11, "file": "sub11_top10_climb.csv", "score": "pre-built", "ref": "local", "desc": "Sub 11: Sub 10 (#14, 0.96225) + 0.35 * Ortho(Mayank 2028 winning blocks) + 0.30 * d_rev + 0.03 * d_cv"},
+    {"sub": 12, "file": "sub12_masterpiece_blend.csv", "score": "pre-built", "ref": "local", "desc": "Sub 12: 80% Sub 11 + 16% Sub 10 + 4% 33-Model CV Super-Stack (Private Shakeup Protection)"},
+]
+
+for r in records:
+    p = SUB_DIR / r["file"]
+    if p.exists():
+        data = p.read_bytes()
+        r["sha256"] = hashlib.sha256(data).hexdigest()
+        r["size_bytes"] = len(data)
+        df = pd.read_csv(p)
+        r["rows"] = len(df)
+        r["min_val"] = float(df["satisfaction"].min())
+        r["max_val"] = float(df["satisfaction"].max())
+
+out_json = SUB_DIR / "manifest.json"
+out_json.write_text(json.dumps(records, indent=2), encoding="utf-8")
+print(f"Manifest written to {out_json}")

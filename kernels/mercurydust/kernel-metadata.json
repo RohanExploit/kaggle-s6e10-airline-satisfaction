@@ -1,0 +1,31 @@
+{
+  "id": "mercurydust/pas-submission",
+  "id_no": 141288598,
+  "title": "PAS-Submission",
+  "code_file": "pas-submission.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "nina2025/ps-s6e10-7",
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "mayankraaz/s6e10-lb-surface-atlas",
+    "cdeotte/s6e10-tfm-oof-and-test-predictions",
+    "rabari9999/s6e10-top18-artifacts"
+  ],
+  "kernel_sources": [
+    "rabari9999/s6e10-lb-0-96209-rank-10",
+    "yuvrajlamba01/airline-passenger-satisfaction-0-96276",
+    "goodpjw2008/s6e10-meta-stack-on-public-oof-lb-0-96217"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

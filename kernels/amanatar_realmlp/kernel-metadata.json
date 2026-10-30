@@ -1,0 +1,29 @@
+{
+  "id": "amanatar/s6e10-realmlp-synthesis-view-rider-gpu",
+  "id_no": 141494018,
+  "title": "S6E10 RealMLP Synthesis View Rider GPU",
+  "code_file": "s6e10-realmlp-synthesis-view-rider-gpu.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "",
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "dariushafshar/s6e10-original-data-aligned"
+  ],
+  "kernel_sources": [
+    "yekenot/ps-s6-e10-realmlp-pytabkit"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4"
+}

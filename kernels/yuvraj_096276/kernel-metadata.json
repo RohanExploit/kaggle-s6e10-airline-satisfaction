@@ -1,0 +1,35 @@
+{
+  "id": "yuvrajlamba01/airline-passenger-satisfaction-0-96276",
+  "id_no": 141041998,
+  "title": "Airline Passenger Satisfaction (0.96276+) \u2708\ufe0f\ud83d\ude80",
+  "code_file": "airline-passenger-satisfaction-0-96276.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "nina2025/ps-s6e10-02",
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "mayankraaz/s6e10-lb-surface-atlas",
+    "dariushafshar/s6e10-original-data-aligned",
+    "koumeimaki/s6e10-route-tfm-nn-oof",
+    "cdeotte/s6e10-tfm-oof-and-test-predictions",
+    "rabari9999/s6e10-top18-artifacts"
+  ],
+  "kernel_sources": [
+    "jiatianzhang2/s6e10-15-fold-gpu-stacking-pipeline",
+    "mehrankazeminia/1-airline-s6e10-tabpfn",
+    "yuvrajlamba01/airline-passenger-satisfaction-0-96213"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:9a6bcfda6d03b2cd9aa347ee8c1bae62043328ed0f4afe9bda014e4f8bbf9435",
+  "machine_shape": "NvidiaTeslaT4"
+}

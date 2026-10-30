@@ -1,0 +1,27 @@
+{
+  "id": "alipakzad/airline-satisfaction-route-geometry-xgboost",
+  "id_no": 141533769,
+  "title": "\u2708\ufe0fAirline Satisfaction: Route Geometry & XGBoost ",
+  "code_file": "airline-satisfaction-route-geometry-xgboost.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "classification",
+    "xgboost",
+    "exploratory data analysis",
+    "data visualization",
+    "feature engineering"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

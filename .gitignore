@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large raw datasets and local binary artifacts (>50MB)
+data/
+datasets/
+oof/*.npy
+oof/*.npz
+*.npy
+*.npz
+*.zip
+!submissions/submissions_archive.zip
+
+# Loose raw submission CSVs (all preserved inside submissions_archive.zip)
+submissions/*.csv
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.log
+.ipynb_checkpoints/
+submissions/*.zip

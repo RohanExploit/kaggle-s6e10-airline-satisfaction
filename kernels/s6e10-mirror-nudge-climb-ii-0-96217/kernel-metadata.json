@@ -1,0 +1,29 @@
+{
+  "id": "mayankraaz/s6e10-mirror-nudge-climb-ii-0-96217",
+  "id_no": 141373647,
+  "title": "\ud83e\ude9e S6E10 | Mirror Nudge Climb II | 0.96217 \ud83d\ude80",
+  "code_file": "s6e10-mirror-nudge-climb-ii-0-96217.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "nina2025/ps-s6e10-7",
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "mayankraaz/s6e10-lb-surface-atlas",
+    "cdeotte/s6e10-tfm-oof-and-test-predictions"
+  ],
+  "kernel_sources": [
+    "mehrankazeminia/1-airline-s6e10-tabpfn",
+    "yuvrajlamba01/airline-passenger-satisfaction-0-96213"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "tkms0816/s6e10-push-model-orthogonal-directions-0-96223",
+  "id_no": 141599528,
+  "title": "S6E10 | Push Model + Orthogonal Directions 0.96223",
+  "code_file": "s6e10-push-model-orthogonal-directions-0-96223.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "goodpjw2008/s6e10-goodpjw2008-extra-members-oof",
+    "tkms0816/s6e10-push-singles"
+  ],
+  "kernel_sources": [
+    "mayankraaz/s6e10-mirror-pair-climb-0-96218"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}

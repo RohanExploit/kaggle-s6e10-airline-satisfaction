@@ -1,0 +1,37 @@
+{
+  "id": "areebbb/s6e10-do-you-need-less-lb-0-96217",
+  "id_no": 141419944,
+  "title": "S6E10 | DO YOU NEED LESS? | LB 0.96217",
+  "code_file": "s6e10-do-you-need-less-lb-0-96217.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "cdeotte/s6e10-tfm-oof-and-test-predictions"
+  ],
+  "kernel_sources": [
+    "mehrankazeminia/1-airline-s6e10-tabpfn",
+    "rabari9999/s6e10-lb-0-96209-rank-10",
+    "mehrankazeminia/3-airline-s6e10-ensembling",
+    "yeashusemwal/secrets-to-satisfaction-it-s-stacking",
+    "daoviet/s6e10-on-the-journey-to-your-first-top-100",
+    "mayankraaz/s6e10-summit-composer-0-96210",
+    "nina2025/ps-s6e10-h-blend-pure-rank-s",
+    "anhadmahajan06/s6e10-are-you-satisfied",
+    "goodpjw2008/s6e10-twin-stacks-family-reg-lb-0-96187",
+    "",
+    "",
+    "",
+    "goodpjw2008/s6e10-meta-stack-on-public-oof-lb-0-96217"
+  ],
+  "competition_sources": [
+    "playground-series-s6e10"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:17b2fc7f27c25c6c2fd4230ec8e66097ab2b89fc88e1e4d6f338b72e1ee0bc3e",
+  "machine_shape": "None"
+}
