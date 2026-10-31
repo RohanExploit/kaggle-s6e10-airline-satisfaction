@@ -142,5 +142,29 @@
     "rows": 299844,
     "min_val": 1.668e-06,
     "max_val": 0.999998332
+  },
+  {
+    "sub": 13,
+    "file": "sub13_repleaf_top5_masterpiece.csv",
+    "score": "pre-built",
+    "ref": "local",
+    "desc": "Sub 13: Sub 10 (#14, 0.96225) + Continuous-Leaf RepLeaf PLR (Cloud GPU T4) + Ortho Climb III Winning Blocks + Reverse-Contrast (Target: Top 5, 0.96316+)",
+    "sha256": "cdf213a91ec7fdfe1f19ece7760db422408bd4d9b22d2817623956e676d6b9b5",
+    "size_bytes": 5996897,
+    "rows": 299844,
+    "min_val": 1.668e-06,
+    "max_val": 0.999998331
+  },
+  {
+    "sub": 14,
+    "file": "sub14_zero_tie_top5_masterpiece.csv",
+    "score": "pre-built",
+    "ref": "local",
+    "desc": "Sub 14: Zero-Tie Disagreement-Gated Masterpiece (Sub 10 Peak + Cloud RepLeaf PLR + Gaussian Gate sigma=0.18 + Lexical Tie-Breaker eps=1e-7, std=0.000371, rs=0.9999992, ties=0)",
+    "sha256": "1cf598a9d7b224d6e329b79e989ba97344949087cc688c84a485083a1cde5fe5",
+    "size_bytes": 5996897,
+    "rows": 299844,
+    "min_val": 1.668e-06,
+    "max_val": 0.999998331
   }
 ]
